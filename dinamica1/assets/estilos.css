@@ -27,6 +27,12 @@ body{
     width: 164px; /*tamanho*/
 }
 
+#copos2{
+    position: relative;
+    top: 95px;
+    width: 164px; /*tamanho*/
+}
+
 .card{
     width: 1100px; /*largura card*/
     height: 200px;  /*altura card*/
@@ -39,6 +45,22 @@ body{
     margin-top: 20px;
 }
 
+.card2{
+    width: 1100px; /*largura card*/
+    height: 170px;  /*altura card*/
+    background-color: #CA7900;
+    border-radius: 40px;
+    margin-top: 60px;
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 h1{
     margin-top: 5%;
     font-family: 'Raleway';
@@ -48,6 +70,13 @@ h1{
 p{
     margin-top: 5%;
     font-size: 40px;
+}
+
+#p2{
+    font-size: 30px;  
+    display:flex;
+    text-align: center;
+    margin-left: 120px;
 }
 
 .btn1{
@@ -76,3 +105,66 @@ p{
     font-size: 28px;
     cursor: pointer;
 }
+
+.btn3{
+    background: #CA8500;
+    border: 7px solid #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 80px;
+    margin-left: 50px;
+
+    width: 370px;
+    height: 76px;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    
+    background: #CA7900;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 20px;
+    display: flex;
+    flex-direction:column;
+    color: #F5F5F5;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+    text-align: center;
+    text-justify: distribute;
+	color: #F5F5F5;
+	text-decoration: none;
+	padding: 2rem 2rem;
+}
+
+#Carrinho{
+    margin-left: 90px;
+}
+
+#vetor{
+    width: 25px;
+}
+
